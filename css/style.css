@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'QuicksandBold';
+    src: url('fonts/QuicksandBold.eot');
+    src: url('fonts/QuicksandBold.eot') format('embedded-opentype'),
+         url('fonts/QuicksandBold.woff2') format('woff2'),
+         url('fonts/QuicksandBold.woff') format('woff'),
+         url('fonts/QuicksandBold.ttf') format('truetype'),
+         url('fonts/QuicksandBold.svg#QuicksandBold') format('svg');
+}
+@font-face {
+    font-family: 'QuicksandLight';
+    src: url('fonts/QuicksandLight.eot');
+    src: url('fonts/QuicksandLight.eot') format('embedded-opentype'),
+         url('fonts/QuicksandLight.woff2') format('woff2'),
+         url('fonts/QuicksandLight.woff') format('woff'),
+         url('fonts/QuicksandLight.ttf') format('truetype'),
+         url('fonts/QuicksandLight.svg#QuicksandLight') format('svg');
+}
+@font-face {
+    font-family: 'QuicksandMedium';
+    src: url('fonts/QuicksandMedium.eot');
+    src: url('fonts/QuicksandMedium.eot') format('embedded-opentype'),
+         url('fonts/QuicksandMedium.woff2') format('woff2'),
+         url('fonts/QuicksandMedium.woff') format('woff'),
+         url('fonts/QuicksandMedium.ttf') format('truetype'),
+         url('fonts/QuicksandMedium.svg#QuicksandMedium') format('svg');
+}
+@font-face {
+    font-family: 'QuicksandRegular';
+    src: url('fonts/QuicksandRegular.eot');
+    src: url('fonts/QuicksandRegular.eot') format('embedded-opentype'),
+         url('fonts/QuicksandRegular.woff2') format('woff2'),
+         url('fonts/QuicksandRegular.woff') format('woff'),
+         url('fonts/QuicksandRegular.ttf') format('truetype'),
+         url('fonts/QuicksandRegular.svg#QuicksandRegular') format('svg');
+}
+@font-face {
+    font-family: 'QuicksandSemiBold';
+    src: url('fonts/QuicksandSemiBold.eot');
+    src: url('fonts/QuicksandSemiBold.eot') format('embedded-opentype'),
+         url('fonts/QuicksandSemiBold.woff2') format('woff2'),
+         url('fonts/QuicksandSemiBold.woff') format('woff'),
+         url('fonts/QuicksandSemiBold.ttf') format('truetype'),
+         url('fonts/QuicksandSemiBold.svg#QuicksandSemiBold') format('svg');
+}
+/* Pulse Shrink */
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+body{
+  background-image: url("../img/bg-desktop.jpg");
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+h1{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+h3{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+p{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}

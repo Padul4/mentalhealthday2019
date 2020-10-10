@@ -1,0 +1,325 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 1080px){ 
+/* HEADER + MENU */
+ .header{
+  height: 100px;
+  width: 1280px;
+  margin: 0 auto;
+}
+.header .logo img{
+  float: left;
+  max-width: 8%;
+  margin-top: 1%;
+}
+.toggle-nav{
+  display: none;
+  position: fixed;
+  right: 5%;
+  top: 5%;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+}
+.toggle-nav i{
+  font-size: 1.3em;
+  font-style: normal;
+}
+.menu{
+  color: white;
+  text-align: center;
+  z-index: 99;
+}
+.menu ul{
+  display: flex;
+  float: right;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+.menu ul li{
+  padding: 0 15px;
+}
+.menu ul li a{
+  color: white;
+  font-size: 0.6em;
+}
+.menu ul li a:hover{
+  text-decoration: underline;
+}
+
+/* HOME */
+.home{
+  margin-bottom: 30px;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100vh;
+}
+.home .date-logo{
+  max-width: 450px;
+  float: right;
+  margin-right: 50px;
+}
+.home .date-logo img{
+  width: 100%;
+}
+.home h1{
+  position: relative;
+  top: 250px;
+  font-size: 1.4em;
+  color: white;
+}
+.home h1 span{
+  font-size: 2em;
+}
+.home p{
+  position: relative;
+  top: 290px;
+  font-size: 0.7em;
+  color: white;
+  width: 50%;
+}
+
+/* WHAT IS MENTAL HEALTH? */
+.what-is{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.what-is .logo{
+  width: 300px;
+  float: left;
+  margin-right: 2%;
+}
+.what-is .logo img{
+  width: 100%;
+  padding-right: 4%;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+}
+.what-is h1{
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.what-is p{
+  font-size: 0.7em;
+  color: white;
+  padding: 0 5%;
+  text-align: left;
+  line-height: 1.3em;
+}
+.what-is .cards-holder{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.what-is .card img{
+  max-width: 100%;
+}
+.what-is .card{
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  width: 300px;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.what-is .card .text-holder{
+  height: auto;
+  padding: 1.5em;
+}
+.what-is .card h3{
+  color: #457878;
+  text-align: left;
+  font-size: 0.7em;
+}
+.what-is .card p{
+  color: #457878;
+  text-align: left;
+  font-size: 0.5em;
+  padding: 1em 0em;
+  line-height: 1.3em;
+
+}
+
+/* STORIES */
+.stories{
+  margin: 100px 0;
+}
+.stories h1{
+  font-size: 1.7em;
+  color: white;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.stories p{
+  font-size: 0.8em;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 1.4em;
+}
+.stories .cards-holder{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.stories .card .text-holder{
+  height: auto;
+  padding: 1.5em;
+}
+.stories .card img{
+  max-width: 320px;
+}
+.stories .card{
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  width: 320px;
+  margin: 20px 20px;
+  background-color: whitesmoke;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.stories .card h3{
+  color: #457878;
+  text-align: left;
+  font-size: 0.7em;
+}
+.stories .card p{
+  color: #457878;
+  text-align: left;
+  font-size: 0.5em;
+  padding: 1em 0em;
+  margin-bottom: 25px;
+}
+.stories .card a{
+  color: #457878;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* POSTERS */
+.posters{
+  margin: 100px 0;
+}
+.posters h1{
+  font-size: 1.7em;
+  color: white;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.posters p{
+  font-size: 0.8em;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* LIGHTBOX - POSTERS */
+#lightgallery{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 650px;
+}
+#lightgallery a{
+  margin: 5px;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+/* GET IN TOUOCH */
+.get-in-touch{
+  margin: 100px auto;
+  max-width: 1080px;
+  height: 500px;
+}
+.get-in-touch h1{
+  font-size: 1.7em;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.get-in-touch .contact-form{
+  float: right;
+  top: 60px;
+  position: relative;
+  right: 100px;
+}
+.get-in-touch .name,
+.get-in-touch .email{
+  width: 370px;
+  margin: 5px auto;
+}
+.get-in-touch .message{
+  padding-bottom: 100px;
+  margin: 5px auto;
+  width: 370px;
+}
+.get-in-touch .send{
+  width: 370px;
+  margin: 5px auto;
+  background: white;
+  border: 1px solid white;
+  color: #457878;
+}
+/* FOOTER */
+
+.main-footer{
+  background: #457878;
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+}
+.main-footer .footer-content{
+  padding: 40px 0;
+}
+.footer-content h2{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.footer-content h3{
+  font-size: 0.9em;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+.footer-content a{
+  color: white;  
+}
+.footer-content i{
+  font-size: 1.4em;
+}
+.footer-content p{
+  padding-top: 20px;
+  font-size: 0.5em;
+}
+/* HOVERS */
+.stories .card:hover,
+.what-is .card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 15px 21px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  cursor: pointer;
+}
+.posters #lightgallery a:hover{
+  transform: scale(1.1);
+}
+.what-is .logo img:hover{
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+}

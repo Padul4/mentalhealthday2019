@@ -1,0 +1,276 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 768px) and (max-width: 1079px){ 
+/* HEADER + MENU */
+ .header{
+  height: 100px;
+}
+.header .logo img{
+  margin-left: 2%;
+  margin-top: 2%;
+  float: left;
+  max-width: 15%;
+}
+.toggle-nav{
+  position: fixed;
+  right: 5%;
+  top: 5%;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+}
+.toggle-nav i{
+  font-size: 1.3em;
+  font-style: normal;
+}
+.menu{
+  top: 0%;
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  z-index: 99;
+}
+.menu ul{
+  display: none;
+  position: fixed;
+  width: 100%;
+  background-color: black ;
+}
+.menu ul li{
+  padding: 20px 0;
+}
+.menu ul li a{
+  color: white;
+}
+
+/* HOME */
+.home{
+  margin-bottom: 30px;
+}
+.home .date-logo{
+  max-width: 300px;
+  margin: 0 auto;
+}
+.home .date-logo img{
+  width: 100%;
+}
+.home h1{
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.home p{
+  font-size: 0.7em;
+  color: white;
+  text-align: center;
+  padding: 0 5%;
+}
+
+/* WHAT IS MENTAL HEALTH? */
+.what-is{
+  text-align: center;
+  margin: 100px 0;
+}
+.what-is .logo{
+  width: 300px;
+  float: left;
+  margin-left: 5%;
+}
+.what-is .logo img{
+  width: 100%;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+}
+.what-is h1{
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.what-is p{
+  font-size: 0.7em;
+  color: white;
+  padding: 0 5%;
+  text-align: left;
+  line-height: 1.3em;
+}
+.what-is .cards-holder{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.what-is .card img{
+  max-width: 100%;
+}
+.what-is .card{
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  width: 300px;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.what-is .card .text-holder{
+  height: auto;
+  padding: 1.5em;
+}
+.what-is .card h3{
+  color: #457878;
+  text-align: left;
+  font-size: 0.7em;
+}
+.what-is .card p{
+  color: #457878;
+  text-align: left;
+  font-size: 0.5em;
+  padding: 1em 0em;
+  line-height: 1.3em;
+
+}
+
+/* STORIES */
+.stories{
+  margin: 100px 0;
+}
+.stories h1{
+  font-size: 1.7em;
+  color: white;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.stories p{
+  font-size: 0.8em;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 1.4em;
+}
+.stories .cards-holder{
+  display: flex;
+  flex-wrap: wrap;
+}
+.stories .card .text-holder{
+  height: auto;
+  padding: 1.5em;
+}
+.stories .card img{
+  max-width: 320px;
+}
+.stories .card{
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  width: 320px;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.stories .card h3{
+  color: #457878;
+  text-align: left;
+  font-size: 0.7em;
+}
+.stories .card p{
+  color: #457878;
+  text-align: left;
+  font-size: 0.5em;
+  padding: 1em 0em;
+  margin-bottom: 25px;
+}
+.stories .card a{
+  color: #457878;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* POSTERS */
+.posters{
+  margin: 100px 0;
+}
+.posters h1{
+  font-size: 1.7em;
+  color: white;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.posters p{
+  font-size: 0.8em;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* LIGHTBOX - POSTERS */
+#lightgallery{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 650px;
+}
+#lightgallery a{
+  margin: 5px;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+/* GET IN TOUOCH */
+.get-in-touch{
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0;
+}
+.get-in-touch h1{
+  font-size: 1.7em;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.get-in-touch .name,
+.get-in-touch .email{
+  width: 50%;
+  margin: 5px auto;
+}
+.get-in-touch .message{
+  padding-bottom: 100px;
+  margin: 5px auto;
+  width: 50%;
+}
+.get-in-touch .send{
+  width: 50%;
+  margin: 5px auto;
+  background: white;
+  border: 1px solid white;
+  color: #457878;
+}
+
+/* HOVERS */
+.stories .card:hover,
+.what-is .card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 15px 21px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  cursor: pointer;
+}
+.posters #lightgallery a:hover{
+  transform: scale(1.1);
+}
+.what-is .logo img:hover{
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+}
